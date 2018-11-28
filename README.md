@@ -1,2 +1,2 @@
-# plop-config
-Config Server for the MSE supporting PLOP
+# config-service
+Config Server for the MSE supporting P3
