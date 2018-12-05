@@ -23,3 +23,7 @@
 /dist/
 /nbdist/
 /.nb-gradle/
+
+# config files (bootstrap.yml will stay on repo, but no need to update it)
+bootstrap.yml
+application.yml
