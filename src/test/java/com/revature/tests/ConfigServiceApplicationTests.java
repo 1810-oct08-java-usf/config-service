@@ -1,4 +1,4 @@
-package com.revature.configservice;
+package com.revature.tests;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

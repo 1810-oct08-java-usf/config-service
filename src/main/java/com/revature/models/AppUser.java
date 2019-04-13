@@ -21,8 +21,7 @@ public class AppUser {
 		this.role = role;
 	}
 
-	public AppUser(Integer id, String firstName, String lastName, String username, String password, String email,
-			String role) {
+	public AppUser(Integer id, String firstName, String lastName, String username, String password, String email, String role) {
 		super();
 		this.id = id;
 		this.firstName = firstName;
