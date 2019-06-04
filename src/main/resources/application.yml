@@ -5,6 +5,7 @@ spring:
     config:
       server:
         git:
+          default-label: profile-config-migration
           uri: https://github.com/1810-oct08-java-usf/configuration-repo
     
 server:
