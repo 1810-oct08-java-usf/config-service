@@ -1,17 +1,19 @@
 spring:
+  profiles:    active: local
   application:
     name: config-service
   cloud:
     config:
       server:
         git:
-          default-label: profile-config-migration
-          uri: https://github.com/1810-oct08-java-usf/configuration-repo
+          default-label: master
+          uri: https://github.com/Revature-RPM/configuration-repo
     
 server:
   port: 8888
 
-#eureka:
-#  client:
-#    service-url:
-#      default-zone: http://localhost:8761/eureka
+---
+spring:
+  profiles: local
+  cloud:    config:      server:        git:
+          default-label: local-deploy          uri: https://github.com/Revature-RPM/configuration-repo
